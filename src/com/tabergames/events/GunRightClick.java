@@ -1,9 +1,20 @@
 package com.tabergames.events;
 
-import org.bukkit.event.Listener;
+import org.bukkit.*;
+import org.bukkit.entity.*;
 
-public class GunRightClick implements Listener{
+public class GunRightClick {
+    Player player = event.getPlayer;
 
-	
-	
-}
+        public void onShootClick(Event shoot) {
+        ClickType clickType = shoot.getClick();
+        if (clickType != ClickType.RIGHT) { 
+            return;
+        }
+
+        if (e.getCurrentItem() == null || shoot.getCurrentItem().getType() != Material.DIAMOND_AXE) {
+            return;
+        }
+    }
+
+} 
