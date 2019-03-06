@@ -4,6 +4,7 @@ import org.bukkit.*;
 import org.bukkit.entity.*;
 
 public class GunRightClick {
+    //woOf
     Player player = event.getPlayer;
 
         public void onShootClick(Event shoot) {
