@@ -1,21 +1,29 @@
 package com.tabergames.events;
 
-import org.bukkit.*;
-import org.bukkit.entity.*;
+import org.bukkit.Material;
+import org.bukkit.entity.Player;
+import org.bukkit.event.Listener;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
 
-public class GunRightClick {
+public class GunRightClick implements Listener{
     //woOf
-    Player player = event.getPlayer;
+   
+	@SuppressWarnings("unlikely-arg-type")
+	public void rightClick(ItemStack istack, Player player) {
+		
+		Inventory i = player.getInventory();
+		for(ItemStack iven : i.getContents()) {
+			
+			if(iven.getType().equals(istack)) {
+				
+				
+				
+			}
+			
+		}
+		
+	}
 
-        public void onShootClick(Event shoot) {
-        ClickType clickType = shoot.getClick();
-        if (clickType != ClickType.RIGHT) { 
-            return;
-        }
-
-        if (e.getCurrentItem() == null || shoot.getCurrentItem().getType() != Material.DIAMOND_AXE) {
-            return;
-        }
-    }
 
 } 

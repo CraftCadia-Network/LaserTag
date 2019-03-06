@@ -1,0 +1,7 @@
+name: LaserTag
+author: Sam Taber and Josh Hanson
+version: 1.0
+main: com.tabergames.main.Main
+commands:
+    team:
+        description: Chooses Team
