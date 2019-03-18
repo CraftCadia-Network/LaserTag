@@ -4,5 +4,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="lib" path="lib/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar"/>
 	<classpathentry kind="lib" path="lib/GuardianBeamAPI-0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sam Taber/eclipse-workspace/LaserTag/lib/ProtocolLib.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
