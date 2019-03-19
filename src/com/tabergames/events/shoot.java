@@ -22,9 +22,9 @@ public shoot(){
 	 Player p = e.getPlayer();
 	 Action a = e.getAction();
 	 
-	Location target = p.getLocation().clone().add(0, 0.3, 0);
+	Location target = p.getLocation().clone().add(5, 0.3, 5);
 	 
-	 if((a == Action.RIGHT_CLICK_AIR) || (e.getItem() == null) || (e.getItem().getType() == Material.DIAMOND_AXE)) {
+	 if((a == Action.RIGHT_CLICK_AIR) || (e.getItem() == null)) {
 		 Beam beam = new Beam(p.getEyeLocation(), target);
 		 beam.setStartingPosition(p.getEyeLocation());
 		 beam.start();
