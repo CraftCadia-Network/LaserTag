@@ -1,0 +1,7 @@
+name: LaserTag
+version: ${project.version}
+main: me.lukeben.lasertag.LaserTag
+authors: [LukeBen]
+description: A lasertag plugin.
+commands:
+  lasertag:

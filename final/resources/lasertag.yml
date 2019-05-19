@@ -1,0 +1,52 @@
+#==========================================================#
+#----------------------------------------------------------#
+#                       ( LaserTag )                       #
+#                   Developed by LukeBen                   #
+#                   Discord LukeBen#7901                   #
+#----------------------------------------------------------#
+#==========================================================#
+
+# Make sure to have gamerule keep inventory on in the world you choose
+# The prefix, can be used in messages as {prefix}
+prefix: '&4Laser&cTag &8» '
+# world = The world that the arenas are in
+# scoreboard = The scoreboard displayed in the arena
+# lobby = The location players will be teleported after they leave the arena
+arena:
+  world: 'world'
+  scoreboard:
+    title: '&4» &cLaserTag &4«'
+    lines:
+      - ''
+      - '&cArena &7» &4{arena}'
+      - '&cTeam &7» {team}'
+      - '&cK/D &7»  &c{kills}&7/&c{deaths}'
+      - ''
+  lobby:
+    x: 100
+    y: 100
+    z: 100
+# The laser gun's damage and distance
+gun:
+  damage: 3
+  distance: 25
+  title: '&4Laser&cGun'
+# The team prefixes
+teams:
+  red: '&cRed'
+  blue: '&1Blue'
+# Messages from the plugin
+lang:
+  valid-arena: '[prefix] &c[name] already exists!'
+  invalid-material: '[prefix] &c[entry] is not a valid item!'
+  invalid-number: '[prefix] &c[entry] is not a valid number!'
+  invalid-arena: '[prefix] &c[entry] is not an existing arena!'
+  invalid-format: '[prefix] &cInvalid format!'
+
+  player-eliminated: '[prefix] &cYou have been eliminated!'
+  player-kill: '[prefix] &c[killer] killed [player]!'
+
+  arena-join: '[prefix] &aYou joined [arena] arena!'
+  arena-leave: '[prefix] &cYou left the [arena] arena!'
+
+  config-reloaded: '[prefix] &aConfig has been reloaded!'

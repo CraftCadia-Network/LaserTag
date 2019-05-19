@@ -1,0 +1,7 @@
+name: LaserTag
+version: 1.0-SNAPSHOT
+main: me.lukeben.lasertag.LaserTag
+authors: [LukeBen]
+description: A lasertag plugin.
+commands:
+  lasertag:

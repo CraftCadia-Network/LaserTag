@@ -1,0 +1,14 @@
+arenas:
+  test:
+    lobby:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    spawn1:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    spawn2:
+      x: 0.0
+      y: 0.0
+      z: 0.0
